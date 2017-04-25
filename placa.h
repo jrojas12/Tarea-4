@@ -1,20 +1,18 @@
-#define FLOAT float
-#define size FLOAT 100.0;
-#define coeficiente FLOAT 0.0001;
+#define FLOAT float;
 #define BOOL char;
 #define FALSE 0;
 #define TRUE 1;
 
-struct Pla {
-   FLOAT l;
-   FLOAT a;
-   FLOAT shield[l][a];
+#define Array_ancho 100
+#define Array_largo 100
+#define coeficiente  0.0001;
 
-} placa;
 
-FLOAT devuelve_l(placa p);
-FLOAT devuelve_a(placa p);
-FLOAT devuelve_shield(placa p);
+struct pla {
+    int bar;
+    int shield[Array_largo][Array_ancho];
+}placa;
+
 /* for open i conditions type is 0 */
 /* for periodic i conditions type is 1 */
 /* for stacked i conditions type is 2 */
