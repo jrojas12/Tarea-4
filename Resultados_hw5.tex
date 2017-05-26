@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{gensymb} %simbolo de grados
+\usepackage{amsmath} %Manejar ecuaciones
+\usepackage{mathtools} % Cajas para ecuaciones
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{graphicx}
+ 
+
+\title{Resultados}
+\author{Jesús Rojas Parra \\ 201414704 }
+\date{May 2017}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{\center{Gráficas}}
+
+\subsection*{\center{Circuito RC}}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{hist1.png}
+\caption{En esta gráfica se muestran los valores por donde se tanteó la similitud de lo datos reales con el modelo. Claramente, los demás valores encontraron una baja similitud con lo cual, solo para el valor con mayor probabilidad se encontró el mayor número de repeticiones y este es el que mejor se ajusta al modelo. En este caso es el tanteo para la capacitancia. }
+\label{hist1}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{hist2.png}
+\caption{En esta gráfica se muestran los valores por donde se tanteó la similitud de lo datos reales con el modelo. Claramente, los demás valores encontraron una baja similitud con lo cual, solo para el valor con mayor probabilidad se encontró el mayor número de repeticiones y este es el que mejor se ajusta al modelo. En este caso es el tanteo para la resistencia.}
+\label{hist2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{caminata_r.png}
+\caption{En esta gráfica se puede apreciar la caminata del método numérico para hallar el parámetro de resistencia. En este caso, el parámetro que más se ajusta es en donde se encuentra un máximo en la similitud.}
+\label{caminatar}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{caminata_c.png}
+\caption{En esta gráfica se puede apreciar la caminata del método numérico para hallar el parámetro de capacitancia. En este caso, el parámetro que más se ajusta es en donde se encuentra un máximo en la similitud.}
+\label{caminatac}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{circuito.png}
+\caption{En esta gráfica se muestran los valores experimentales(azul) y la función obtenida(rojo) con los parámetros obtenidos con el método de Monte Carlos.}
+\label{circuito}
+\end{figure}
+
+\subsection*{\center{Canal Ionico}}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{membrana.png}
+\caption{En esta gráfica se muestran los datos tomados y el circulo de mayor radio posible dados esos puntos tomados. En la gráfica se muestran los parámetros para ambos casos.}
+\label{membrana}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{p1.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para x (primer caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{p1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{p11.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para x (segundo caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{p11}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{p2.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para y (primer caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{p2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{p21.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para y (segundo caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{p21}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{r.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para el radio (primer caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{r}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{r1.png}
+\caption{Se logra apreciar en está gráfica el tanteo que se hizo para el radio (segundo caso) y la rápida convergencia del método numérico empleado: metropolis monte carlos.}
+\label{r1}
+\end{figure}
+
+
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
